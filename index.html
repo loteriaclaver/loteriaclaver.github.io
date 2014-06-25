@@ -1,1 +1,116 @@
-Hello World
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Administració de Loteries Claver - Sant Feliu de Guíxols</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+ <!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<!----webfonts---->
+<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!----//webfonts---->
+<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!----//End-top-nav-script---->
+</head>
+<body>
+		<!-----start-container---->
+			<!----- start-header---->
+			<div id="home" class="header">
+				<div class="container">
+					<div class="logo">
+						<a href="#"><img src="images/logo.png" title="logo" /></a>
+					</div>
+					<!----start-top-nav---->
+					 <nav class="top-nav">
+						<ul class="top-nav">
+							<li class="active"><a href="#home" class="scroll">Inici</a></li>
+							<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Contacte</a></li>
+						</ul>
+						<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+					</nav>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!----- //End-header---->
+
+
+<div class="footer">
+  	<div class="container">
+		<div class="footer-bottom" id="contact">
+		  <div class="container contact">
+      	  	 <div class="col-md-4 contact-top_left">
+			  <h3>Contacte</h3>
+			  <ul class="contact_info">
+			  	<p>Administració de Loteries Nº2 Claver</p>
+			  	<li><i class="location"> </i><span>Avinguda de Catalunya, 36</span></li>
+			  	<li><i class="location"> </i><span>17220 Sant Feliu de Guíxols (Girona)</span></li>
+			  	<li><i class="mobile"> </i><span>972 82 19 52</span></li>
+			  </ul>
+	 		 </div>
+      		 <div class="col-md-8 contact-top">
+			  <h3>On som</h3>
+			     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2974.7827897074885!2d3.0242837!3d41.78989459999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb06a58de8b18f%3A0x1d85acbf95aa8519!2sAvinguda+de+Catalunya%2C+36!5e0!3m2!1sen!2ses!4v1401905123160" width="600" height="450" frameborder="0" style="border:0"></iframe>
+             </div>
+            </div>
+      	    <div class="copy">
+		       <p> 2014 Administració de Loteries Claver</p>
+		    </div>
+          </div>
+          <script type="text/javascript">
+				$(document).ready(function() {			
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+			</script>
+		    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">top </span></a>
+			</div>
+		</div>
+		<!----//End-footer---->
+		<!----//End-container---->  
+</body>
+</html>
+
