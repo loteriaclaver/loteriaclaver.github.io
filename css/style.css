@@ -23,7 +23,6 @@ body a{
 .logo a{
 	color: #FFF;
 	font-weight: 700;
-	margin-top: 1em;
 }
 .logo a:hover{
 	text-decoration:none;
@@ -72,7 +71,8 @@ nav {
 nav ul {
 	padding: 0;
 	float: right;
-	margin: 0.75em 0;
+	vertical-align: middle;
+	margin: 2em 0;
 }
 nav li {
 	display: inline;
@@ -295,8 +295,8 @@ nav a#pull {
 	text-indent: -9999px;
 	overflow: hidden;
 	text-decoration: none;
-	height: 41px;
-	width: 41px;
+	height: 40px;
+	width: 40px;
 	background: transparent url("../images/themes.png") no-repeat left top;
 	margin-top: -65px;
 }
@@ -452,8 +452,6 @@ nav a#pull {
 	font-size: 1.7em;
 }
 .feature-grid h3 span{
-	width: 26px;
-	height: 25px;
 	display: inline-block;
 	background: url(../images/fea-icons.png) no-repeat 1px 0px;
 	vertical-align: top;
@@ -482,6 +480,34 @@ nav a#pull {
 }
 .feature-grids{
 	padding-top:1em;
+}
+
+.feature-grid h3 span.fea-people{
+	background: url(../images/people.png)no-repeat 0px 0px;
+	margin-right: 0.5em;
+	width: 28px;
+	height: 28px;
+}
+
+.feature-grid h3 span.fea-loteria{
+	background: url(../images/loteria.png)no-repeat 0px 0px;
+	margin-right: 0.5em;
+	width: 28px;
+	height: 27px;
+}
+
+.feature-grid h3 span.fea-jocs{
+	background: url(../images/jocs.png)no-repeat 0px 0px;
+	margin-right: 0.5em;
+	width: 28px;
+	height: 37px;
+}
+
+.feature-grid h3 span.fea-nadal{
+	background: url(../images/nadal.png)no-repeat 0px 0px;
+	margin-right: 0.5em;
+	width: 28px;
+	height: 28px;
 }
 /*----start-team----*/
 .team{
@@ -700,51 +726,6 @@ span.default_line {
 }
 .p-img{
 	width:100%;
-}
-/*-----start-gallery----*/
-.gallery-grids{
-	padding-top:2em;
-}
-.gallery{
-	padding:3em 0;
-}
-.gallery-head h3{
-	color: #202020;
-	font-weight: 700;
-	font-size: 1.8em;
-	margin: 0;
-	text-transform:uppercase;
-}
-.gallery-head span{
-	height: 1px;
-	width: 8%;
-	background: #202020;
-	display: inline-block;
-}
-.gallery-head p{
-	color: #777777;
-	width: 60%;
-	margin: 0.5em auto;
-	font-size:0.8125em;
-	line-height:1.8em;
-	font-family: 'Open Sans Condensed', sans-serif;
-}
-
-/*** Navigation ***/
-.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
-	width: 26px;
-	height: 36px;
-	position: absolute;
-	cursor: pointer;
-	z-index: 100;
-}
-.nbs-flexisel-nav-left {
-	left: 0px;
-	background: url(../images/c_arrows.png) no-repeat 0px 0px;
-}
-.nbs-flexisel-nav-right {
-	right: 0px;
-	background: url(../images/c_arrows.png) no-repeat -18px 0px;
 }
 /*--footer--*/
 .footer{
@@ -989,17 +970,17 @@ p.m_msg{
 /*--responsive design--*/
 @media (max-width:1366px){
 .slide-text-info h1 {
-	width: 34%;
+	width: 20%;
 }
 }
 @media (max-width:1280px){
 .slide-text-info h1 {
-	width: 36%;
+	width: 22%;
 }
 }
 @media (max-width:1024px){
 .slide-text-info h1 {
-	width: 37%;
+	width: 23%;
 	font-size: 1.2em;
 }
 .top-nav ul li a {
