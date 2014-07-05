@@ -884,6 +884,12 @@ ul.contact_info span {
 	top: -4px;
 }
 
+ul.contact_info a {
+	color: #888;
+	font-size: 1.1em;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
 ul.contact_info span:hover {
 	text-decoration:underline;
 }
