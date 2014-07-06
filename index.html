@@ -31,6 +31,9 @@
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <!----//webfonts---->
+
+
+
 <!----start-top-nav-script---->
 		<script>
 			$(function() {
@@ -54,15 +57,15 @@
 <body>
 		<!-----start-container---->
 			<!----- start-header---->
-			<div id="home" class="header">
+			<div itemscope itemtype="http://schema.org/LocalBusiness" id="home" class="header">
 				<div class="container">
 					<div class="logo">
-						<a href="#"><img src="images/logo.png" title="logo" /></a>
+						<a href="#"><img itemprop="image" src="images/logo.png" title="logo" /></a>
 					</div>
 					<!----start-top-nav---->
 					 <nav class="top-nav">
 						<ul class="top-nav">
-							<li class="active"><a href="#home" class="scroll">Inici</a></li>
+							<li class="active"><a itemprop="url" href="#home" class="scroll">Inici</a></li>
 							<li class="page-scroll"><a href="#features" class="scroll">T'oferim</a></li>
 							<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Contacte</a></li>
 						</ul>
@@ -202,18 +205,18 @@ $(window).load(function() {
   	<div class="container">
 		<div class="footer-bottom" id="contact">
 		  <div class="container contact">
-      	  	 <div class="col-md-4 contact-top_left">
+      	  	 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="col-md-4 contact-top_left">
 			  <h3>Contacte</h3>
 			  <ul class="contact_info">
-			  	<p>Administració de Loteries Nº2 Claver</p>
-			  	<li><i class="location"> </i><span>Avinguda de Catalunya, 36</span></li>
-			  	<li><i class="location"> </i><span>17220 Sant Feliu de Guíxols (Girona)</span></li>
-			  	<li><i class="mobile"> </i><span>972 82 19 52</span></li>
+			  	<p itemprop="name">Administració de Loteries Nº2 Claver</p>
+			  	<li><i class="location"> </i><span itemprop="streetAddress">Avinguda de Catalunya, 36</span></li>
+			  	<li><i class="location"> </i><span itemprop="postalCode">17220</span> <span itemprop="addressLocality">Sant Feliu de Guíxols</span> <span>(Girona)</span></li>
+			  	<li><i class="mobile"> </i><span itemprop="telephone">972 82 19 52</span></li>
 			  	<li><i class="message"> </i><span class="msg">
 			  		<script language="JavaScript">
 						var username = "info";
 						var hostname = "loteriaclaver.com";
-						var linktext = username + "@" + hostname ;
+						var linktext = "<span itemprop=\"email\">" + username + "@" + hostname + "</span>";
 						document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
 						</script></span>
 				</li>
