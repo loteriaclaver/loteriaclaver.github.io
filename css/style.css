@@ -395,7 +395,7 @@ nav a#pull {
 .callbacks_here a:after{
 	border:2px solid #F4BB36;
 }
-.slide-text-info h1{
+.slide-text-info h1 {
 	font-size: 1.7em;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -405,7 +405,7 @@ nav a#pull {
 	margin: 0.4em 0 0.1em;
 }
 /*----*/
-.slide-text-info span{
+.slide-text-info span {
 	background: #304860;
 	color: #FFF;
 	text-transform: uppercase;
@@ -413,6 +413,9 @@ nav a#pull {
 	padding: 0.5em 1em;
 	margin: 0;
 	font-size: 1em;
+}
+.slide-text-info a {
+	color: #FFF;
 }
 .slide-text-info label{
 	background: #2A2928;
