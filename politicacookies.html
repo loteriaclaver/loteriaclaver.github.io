@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Administració de Loteries Claver - Sant Feliu de Guíxols</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+ <!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</script>
+<!----webfonts---->
+<link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!----//webfonts---->
+
+
+
+<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+<!----//End-top-nav-script---->
+</head>
+<body>
+		<!-----start-container---->
+			<!----- start-header---->
+			<div itemscope itemtype="http://schema.org/LocalBusiness" id="home" class="header">
+				<div class="container">
+					<div class="logo">
+						<a href="http://loteriaclaver.com/"><img itemprop="image" src="images/logo.png" title="logo" /></a>
+					</div>
+					<!----start-top-nav---->
+					 <nav class="top-nav">
+						<ul class="top-nav">
+							<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Contacte</a></li>
+						</ul>
+						<a href="#" id="pull"><img src="images/nav-icon.gif" title="menu" /></a>
+					</nav>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!----- //End-header---->
+			<!-----start-fearures---->
+			<div class="features" id="features">
+				<div class="container">
+					<div class="feature-grid">
+						<h3>Política de Cookies</h3><br>
+						<p>Què son les cookies?</p><br>
+						<p>Una cookie és un fitxer que es descarrega al seu ordinador al accedir a determinades pàgines web. Les cookies permeten a una pàgina web, entre altres coses, emmagatzemar i recuperar informació sobre els hàbits de navegació de l'usuari o del seu equip i, en funció de la informació que continguin i de la forma en que utilitzi el seu equip, es poden utilitzar para reconèixer a l'usuari.</p><br><br>
+						<p>Quins tipus de cookies utilitza esta pàgina web?</p><br>
+						<p>Google Analytics: Es tracten de Cookies analítiques, que son aquelles que, ben tractades por nosaltres o per tercers, permeten quantificar el número d'usuaris i així realitzar la mesura i anàlisis estadístic de la utilització que fan els usuaris del servei oferit. Per aquest motiu s'analitza la seva navegació a la nostra pàgina web amb l'objectiu de millorar l'oferta de productes o serveis.<br>Consulti aquest <a href=http://www.google.com/intl/es_ALL/policies/privacy/ target="_blank">enllaç</a> per consultar la política de privacitat del servei de Google Analytics.</p><br><br>
+						<p>Revocació i eliminació de cookies</p><br>
+						<p>Es pot permetre, bloquejar o eliminar les cookies instal·lades al seu ordinador mitjançant la configuració de les opcions del navegador.</p>
+					</div>
+				</div>
+			</div>
+			<!-----//End-fearures---->
+
+
+
+
+<div class="footer">
+  	<div class="container">
+		<div class="footer-bottom" id="contact">
+		  <div class="container contact">
+      	  	 <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="col-md-4 contact-top_left">
+			  <h3>Contacte</h3>
+			  <ul class="contact_info">
+			  	<p itemprop="name">Administració de Loteries Nº2 Claver</p>
+			  	<li><i class="location"> </i><span itemprop="streetAddress">Avinguda de Catalunya, 36</span></li>
+			  	<li><i class="location"> </i><span itemprop="postalCode">17220</span> <span itemprop="addressLocality">Sant Feliu de Guíxols</span> <span>(Girona)</span></li>
+			  	<li><i class="mobile"> </i><span itemprop="telephone">972 82 19 52</span></li>
+			  	<li><i class="message"> </i><span class="msg">
+			  		<script language="JavaScript">
+						var username = "info";
+						var hostname = "loteriaclaver.com";
+						var linktext = "<span itemprop=\"email\">" + username + "@" + hostname + "</span>";
+						document.write("<a href='" + "mail" + "to:" + username + "@" + hostname + "'>" + linktext + "</a>");
+						</script></span>
+				</li>
+			  </ul>
+	 		 </div>
+      		 <div class="col-md-8 contact-top">
+			  <h3>On som</h3>
+			     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2974.7827897074885!2d3.0242837!3d41.78989459999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb06a58de8b18f%3A0x1d85acbf95aa8519!2sAvinguda+de+Catalunya%2C+36!5e0!3m2!1sen!2ses!4v1401905123160" width="600" height="450" frameborder="0" style="border:0"></iframe>
+             </div>
+            </div>
+      	    <div class="copy">
+		       <p> 2014 LoteriaClaver</p>
+		    </div>
+          </div>
+          <script type="text/javascript">
+				$(document).ready(function() {					
+					$().UItoTop({ easingType: 'easeOutQuart' });
+					
+				});
+			</script>
+		    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;">top </span></a>
+			</div>
+		</div>
+		<!----//End-footer---->
+		<!----//End-container---->  
+</body>
+</html>
+
