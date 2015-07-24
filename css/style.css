@@ -512,6 +512,12 @@ nav a#pull {
 	width: 28px;
 	height: 28px;
 }
+
+.feature-grid a{
+	color:#F0C030;
+}
+
+
 /*----start-team----*/
 .team{
 	background: #F0C030;
@@ -523,6 +529,9 @@ nav a#pull {
 	font-weight: 700;
 	font-size: 1.8em;
 	margin:0;
+}
+.team-head h2{
+	color: #FFF;
 }
 .team-head span{
 	height:1px;
